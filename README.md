@@ -1,5 +1,3 @@
-
-
 # Vue Geolocation API
 A simple reactive wrapper for [Geolocation Web API](https://developer.mozilla.org/pt-BR/docs/Web/API/Geolocation)
 
@@ -32,7 +30,7 @@ Add to [modules](https://nuxtjs.org/guide/modules) section at your **nuxt.config
 ```js
 module.exports =  {
   modules:  [
-    '@nuxtjs/axios',
+    'vue-geolocation-api/nuxt',
   ],
   geolocation:  {
     // watch: true,

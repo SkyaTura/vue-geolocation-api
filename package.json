@@ -1,0 +1,43 @@
+{
+  "name": "vue-geolocation-api",
+  "keywords": ["geolocation", "vue", "nuxt", "geojson"],
+  "repository": "github:skyatura/vue-geolocation-api",
+  "version": "0.1.6",
+  "scripts": {
+    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/vue-geolocation-api.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/vue-geolocation-api.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/vue-geolocation-api.min.js",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve --open src/components/vue-geolocation-api.vue"
+  },
+  "main": "dist/vue-geolocation-api.umd.js",
+  "module": "dist/vue-geolocation-api.esm.js",
+  "unpkg": "dist/vue-geolocation-api.min.js",
+  "browser": {
+    "./sfc": "src/vue-geolocation-api.js"
+  },
+  "dependencies": {
+    "vue": "^2.5.21"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "rollup": "^0.57.0",
+    "rollup-plugin-async": "^1.2.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-vue": "^4.6.2",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "nuxt/*",
+    "*.json"
+  ]
+}

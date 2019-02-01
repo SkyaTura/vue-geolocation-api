@@ -2,7 +2,7 @@
   "name": "vue-geolocation-api",
   "keywords": ["geolocation", "vue", "nuxt", "geojson"],
   "repository": "github:skyatura/vue-geolocation-api",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "scripts": {
     "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
     "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/vue-geolocation-api.umd.js",

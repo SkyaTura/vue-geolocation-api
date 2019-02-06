@@ -3,7 +3,7 @@
   "author": "Antonio Eduardo <antonio@skyatura.com.br> (https://skyatura.com.br/)",
   "keywords": ["geolocation", "vue", "nuxt", "geojson"],
   "repository": "github:skyatura/vue-geolocation-api",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "license": "MIT",
   "scripts": {
     "build": "npm run build:umd & npm run build:es & npm run build:unpkg",

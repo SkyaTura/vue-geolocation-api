@@ -67,6 +67,7 @@ export const VueGeolocationApi = (Vue, defaultOptions = {}) =>
           this.position = null
         }
         this.loading = false
+        this.$emit('changed:position', position)
         return (this.position = positionToObject(position))
       },
       _watch() {

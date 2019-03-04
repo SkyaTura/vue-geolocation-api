@@ -21,9 +21,9 @@ yarn add vue-geolocation-api
 ### Vue instance
 ```js
 import Vue from 'vue'
-import VueGeolocation from 'vue-geolocation'
+import VueGeolocationApi from 'vue-geolocation-api'
 
-Vue.use(VueGeolocation/*, { ...options } */)
+Vue.use(VueGeolocationApi/*, { ...options } */)
 ```
 ### Nuxt
 Add to [modules](https://nuxtjs.org/guide/modules) section at your **nuxt.config.js**

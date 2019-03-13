@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import VueGeolocationApi from 'vue-geolocation-api'
+import VGA from 'vue-geolocation-api'
 
 export default (ctx, inject) => {
   // eslint-disable-next-line

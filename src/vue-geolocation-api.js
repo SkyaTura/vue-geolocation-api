@@ -50,7 +50,11 @@ export const VueGeolocationApi = (Vue, defaultOptions = {}) =>
     },
     methods: {
       checkSupport() {
-        return (this.supported = 'geolocation' in navigator)
+        const supported =
+          typeof window !== 'undefined' &&
+          navigator &&
+          'geolocation' in navigator
+        return (this.supported = supported)
       },
       async getCurrentPosition(options) {
         if (!this.checkSupport()) return

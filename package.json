@@ -31,7 +31,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@vue/cli-plugin-eslint": "^3.12.1",
-    "@vue/cli-service": "^4.5.9",
+    "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^5.16.0",
@@ -39,7 +39,7 @@
     "rollup": "^0.68.2",
     "rollup-plugin-async": "^1.2.0",
     "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-vue": "^4.7.2",
+    "rollup-plugin-vue": "^6.0.0",
     "vue-template-compiler": "^2.6.12"
   },
   "files": [
